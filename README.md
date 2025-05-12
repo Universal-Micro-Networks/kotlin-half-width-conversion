@@ -1,26 +1,27 @@
 # Kotlin Half-Width Conversion
 
-このプロジェクトは、Kotlinで作成された半角文字変換ツールです。
+This project is a tool for converting between full-width and half-width Katakana characters, written in Kotlin.
 
-## 開発環境
+## Development Environment
 
-- Kotlin 1.9.22
-- JDK 17
-- Gradle (Kotlin DSL)
+- Kotlin 2.0.21
+- Kotlin Gradle Plugin 2.0.21
+- JDK 21
+- Gradle 8.14 (Kotlin DSL)
 
-## ビルド方法
+## Build
 
 ```bash
 ./gradlew build
 ```
 
-## 実行方法
+## Run
 
 ```bash
 ./gradlew run
 ```
 
-## テスト実行
+## Test
 
 ```bash
 ./gradlew test
